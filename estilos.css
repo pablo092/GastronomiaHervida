@@ -221,6 +221,17 @@ article, aside, footer {
     animation-iteration-count: infinite;
 }
 
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
 @keyframes colores {
     0% {
         background-color: red;
@@ -246,7 +257,6 @@ article, aside, footer {
     }
 }
 
-
 @keyframes texto {
     from {
         opacity: 0;
@@ -255,3 +265,5 @@ article, aside, footer {
         opacity: 1;
     }
 }
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
