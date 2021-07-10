@@ -1,0 +1,26 @@
+{
+  "name": "gastronomiahervida",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo092/GastronomiaHervida.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo092/GastronomiaHervida/issues"
+  },
+  "homepage": "https://github.com/pablo092/GastronomiaHervida#readme"
+}
