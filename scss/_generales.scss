@@ -1,13 +1,189 @@
 /* generales */
 html { /* etiqueta raíz */
-   font-size: 62.5%;
+   font-size: 100%;
 }
 
-*{
+* {
 	margin:0px;
 	padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
+body {
 	font-family: 'Montserrat'
+}
+
+.background-content {
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+    background-image: url(http://barriodamale.com.ar/wp-content/uploads/2020/01/bg-img-07-free-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+    .contact-container {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px 50px 50px 50px;
+    }
+
+    .contact-titles {
+        padding-top: 20px;
+        padding-left: 70px;
+        h3, h2 {
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+    }
+
+    label {
+        color: #ffffff;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    #mensaje {
+        height: 200px;
+    }
+    
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+    #parallax .sect {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    ​
+    /* Typography */
+    /**************************/
+    #parallax h1 {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #parallax h2 {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+        font-size: 70px;
+        letter-spacing: 10px;
+        z-index: 10;
+        opacity: .8;
+        margin-bottom: 0px;
+    }
+
+    #parallax h3 {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 8px;
+        margin-bottom: 0px;
+    }
+
+    #parallax p {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: white;
+    }
+
+    .sc {
+        color: #3b8595;
+    }
+
+    .ny {
+        color: #3d3c3a;
+    }
+
+    .atw {
+        color: #c48660;
+    }
+
+    /* Section - Parallax */
+    /**************************/
+    #parallax .parallax-one {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        width: 100%;
+        background-image: url(images/lena-ardiendo.jpg);
+    }
+
+    #parallax .parallax-two {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-image: url(images/lena-ardiendo2.jpg);
+    }
+
+    /* Media Queries */
+    /**************************/
+    @media screen and (max-width: 767px) {
+
+        #parallax h2 {
+            font-size:30px;
+        }
+
+        #parallax .parallax-one, #parallax .parallax-two {
+            padding-top:100px;
+            padding-bottom:100px;
+        }
+    }
+
 }

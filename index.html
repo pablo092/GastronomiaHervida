@@ -5,82 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creaciones gastronómicas de Pablo</title>
-    <link rel="stylesheet" href="css/pruebacss.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Este es el sitio web de mis menues parrilleros en el que encontrarás imagenes y videos">
     <meta name="keywords"  content="COMIDA, VIDEOS, ASADOS, COSTILLARES, LECHOONES ">
 </head>
 <body>
-    <header>
+    <header class="inicio">
 		<nav>
-            <ul class="menu">
+            <ul class="flexMenu">
                 <li>
-                    <a href="index.html">Inicio</a>
+                    <a href="index.html">
+                        <h1>inicio</h1>
+                    </a>
                 </li>
                 <li>
-                    <a href="parrilla.html">Parrilla</a>
+                    <a href="parrilla.html">
+                        <h1>parrilla</h1>
+                    </a>
                 </li>
                 <li>
-                    <a href="asador.html">Asador</a>
+                    <a href="asador.html">
+                        <h1>asador</h1>
+                    </a>
                 </li>
                 <li>
-                    <a href="gourmet.html">Gourmet</a>
+                    <a href="gourmet.html">
+                        <h1>gourmet</h1>
+                    </a>
                 </li>
                 <li>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="contacto.html">
+                        <h1>contacto</h1>
+                    </a>
                 </li>
             </ul>
         </nav>	
     </header>
-    
-    <h2 class="titulo">Tabla </h2>
-    <table cellpadding="5" cellspacing="10">
-        <tr>
-            <th>Nombre</th>
-            <th>Información técnica</th>
-            <th>Características</th>
-            <th>Comentarios o recomendaciones</th>
-        </tr>
-        <tr>
-            <td>Costillar</td>
-            <td>
-                <ul>
-                    <li>Costilla</li>
-                    <li>Entraña</li>
-                    <li>Vacio</li>
-                    <li>Matambre</li>
-                </ul>
-            </td>
-            <td>Coste medio, Ideal acompañar con vino tinto de una carne ahumada con espinillo</td>
-            <td>
-                <ol>
-                    <li>El costillar es mejor que sea de novillo, por lo que debe pesar unos 8 kilos aproximadamente, revisa que los huesos sean chatos y no redondos, que la grasa esté repartida de forma uniforme por toda la carne y que ésta sea más blanca que amarilla.</li>
-                    <li>Si quieres trabajar con porciones pequeñas, puedes pedirle al carnicero que haga cortes paralelos cada 10 centímetros aproximadamente, atravesando las costillas.</li>
-                    <li>Si tienes espacio suficiente, puedes cocinarlo entero y servir solo la pulpa. Para esto, pide que marquen la carne pasando solo la punta del cuchillo por la parte posterior de la pieza, entre los huesos de las costillas con cortes a cada lado. Cuando la carne esté hecha, se podrán sacar los huesos enteros sin problema.</li>
-                </ol>
-            </td>
-        </tr>
-        <tr>
-            <td>Lechón</td>
-            <td>
-                <ul>
-                    <li>Costillas</li>
-                    <li>Jamón</li>
-                </ul>
-            </td>
-            <td>Coste alto, Carne ahumada con espinillo pero se recomienda adobar un dia antes y ahumar manzano</td>
-            <td>
-                <ol>
-                    <li>Una receta sencilla y fácil de hacer de adobo para nuestra preparación es hervir en una ollita una cucharada de sal fina, pimienta, el jugo de tres limones, 10 dientes de ajo, 1 cucharada de ají molido, 1 taza de vinagre, 1 taza de aceite, 1 cucharada de perejil, media taza de vino blanco, 2 hojas de laurel y un morrón picado.</li>
-                    <li>Si hay más tiempo puede ponerse todo a macerar (sin los morrones) y sobre el final hervir.</li>
-                </ol>
-            </td>
-        </tr>
-    </table>
+    <section class="background-content">
+        <div id="parallax">
+            <section>
+                <div class="sect">
+                    <h2>Sobre mi</h2>
+                    <p>Nací el 2 de noviembre de 1992. Cocinero por herencia de mis abuelos, mesas familiares, esos aromas de la y los primeros asados para mis amigos mi futuro.</p>
+                </div>
+            </section>
+            
+             <section>
+                <div class="parallax-one">
+                  <h2>Proyectos gastronómicos</h2>
+                  <h3>Sin un orden especial</h3>
+                </div>
+            </section>
 
+            <section>
+                <div class="parallax-two">
+                    <h2>Colección de platos a la parrilla</h2>
+                    <h3>Resúmenes de recetas a las brasas y a la cocina.</h3>
+                </div>
+            </section>
+            <section>
+                <div class="sect">
+                    <h2>Para todos los gustos</h2>
+                    <h3>Resúmenes de recetas a las brasas y a la cocina.</h3>
+                    <h3>Ideas para compartir momentos inolvidables.</h3>
+                    <h3>Redescubrir platos con otro toque.</h3>
+                </div>
+            </section>
+        </div>
+    </section>
     <footer>
-		<h5 class="paraTransicion"> ~ Este es mi footer ~ </h5>
-	</footer>
+        <section>
+            <h3>ESTAMOS EN CONTACTO!</h3>
+        </section>
+        <div class="elemento-contenedor-redes">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

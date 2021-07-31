@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* generales */
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+html {
+  /* etiqueta raíz */
+  font-size: 100%; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat'; }
+
+.background-content {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(http://barriodamale.com.ar/wp-content/uploads/2020/01/bg-img-07-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  /* Section - Parallax */
+  /**************************/
+  /* Media Queries */
+  /**************************/ }
+  .background-content .contact-container {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 50px 50px 50px; }
+  .background-content .contact-titles {
+    padding-top: 20px;
+    padding-left: 70px; }
+    .background-content .contact-titles h3, .background-content .contact-titles h2 {
+      color: #ffffff; }
+    .background-content .contact-titles h2 {
+      font-size: medium; }
+  .background-content label {
+    color: #ffffff; }
+  .background-content input[type=text], .background-content select, .background-content textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; }
+  .background-content #mensaje {
+    height: 200px; }
+  .background-content input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+  .background-content input[type=submit]:hover {
+    background-color: #45a049; }
+  .background-content #parallax .sect {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+  .background-content ​
+#parallax h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    padding: 0;
+    margin: 0; }
+  .background-content #parallax h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 10px;
+    z-index: 10;
+    opacity: .8;
+    margin-bottom: 0px; }
+  .background-content #parallax h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 8px;
+    margin-bottom: 0px; }
+  .background-content #parallax p {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white; }
+  .background-content .sc {
+    color: #3b8595; }
+  .background-content .ny {
+    color: #3d3c3a; }
+  .background-content .atw {
+    color: #c48660; }
+  .background-content #parallax .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    background-image: url(images/lena-ardiendo.jpg); }
+  .background-content #parallax .parallax-two {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(images/lena-ardiendo2.jpg); }
+  @media screen and (max-width: 767px) {
+    .background-content #parallax h2 {
+      font-size: 30px; }
+    .background-content #parallax .parallax-one, .background-content #parallax .parallax-two {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+/* Header */
+.inicio {
+  background-image: url("images/nav/inicio.jpg"); }
+
+.parrilla {
+  background-image: url("images/nav/parrilla.jpg"); }
+
+.asador {
+  background-image: url("images/nav/asador.jpg"); }
+
+.gourmet {
+  background-image: url("images/nav/gourmet.jpg"); }
+
+.contacto {
+  background-image: url("images/nav/contacto.jpg"); }
+
+header {
+  background-color: #001F3F;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+header nav .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 40px; }
+
+.flexMenu li a {
+  margin-left: auto;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  line-height: 4;
+  box-sizing: inherit;
+  transition: color .2s linear; }
+  .flexMenu li a :hover {
+    color: orange; }
+
+header h1 {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  font-size: 1rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px; }
+
+/*Grilla */
+.grid-container {
+  display: grid;
+  margin: 40px 0 40px 0;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1px 1px;
+  text-align: center;
+  justify-content: stretch;
+  font-size: 1.5rem;
+  grid-template-areas: "bannerUno bannerUno bannerUno bannerUno" "noticiaDos noticiaDos noticiaTres noticiaCuatro" "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro"; }
+
+.bannerUno {
+  grid-area: bannerUno;
+  background-color: #EFF4F7; }
+
+.noticiaTres {
+  grid-area: noticiaTres;
+  background-color: #73CAEF; }
+
+.noticiaDos {
+  grid-area: noticiaDos;
+  background-color: #89FFFB; }
+
+.noticiaCuatro {
+  grid-area: noticiaCuatro;
+  background-color: #41E2DD; }
+
+.noticiaCinco {
+  grid-area: noticiaCinco;
+  background-color: #50D8C8; }
+
+.noticiaSeis {
+  grid-area: noticiaSeis;
+  background-color: #53B4F4; }
+
+.noticiaSiete {
+  grid-area: noticiaSiete;
+  background-color: #CDE0E4; }
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 300px;
+  background-image: url(http://barriodamale.com.ar/wp-content/uploads/2019/01/Back_IMG_9277.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+  footer section {
+    padding-top: 100px;
+    padding-left: 100px; }
+    footer section h3 {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+      color: #ffffff; }
+  footer .elemento-contenedor-redes {
+    margin-left: 93px;
+    margin-top: 20px; }
+    footer .elemento-contenedor-redes .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      box-sizing: content-box; }
+    footer .elemento-contenedor-redes .fa:hover {
+      opacity: 0.7; }
+    footer .elemento-contenedor-redes .fa-facebook {
+      background: #3B5998;
+      color: white; }
+    footer .elemento-contenedor-redes .fa-youtube {
+      background: #bb0000;
+      color: white; }
+    footer .elemento-contenedor-redes .fa-instagram {
+      background: #125688;
+      color: white; }
